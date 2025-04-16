@@ -1,0 +1,36 @@
+main{
+    border: 0.1px groove black;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16em;
+    margin-left: 16em ;
+}
+
+label{
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    background-color: rgb(253, 239, 239);
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(215, 239, 243);
+}
+
+.Altura{
+    margin-top: 1.5em;
+}
+
+input{
+    padding: 1em;
+}
+
+button{
+    background-color: rgb(205, 240, 205);
+}
