@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,17 +8,30 @@
 </head>
 <body>
     <main>
-        <form action="">
+
+        <form id="form-imc">
+            <h1>Calculadora de IMC</h1>
             <div class="Peso">
                 <label for="Peso">Peso (Kg)</label>
-                <input type="number" id="Peso" name="Peso">
+                <input type="text" id="Peso" name="Peso">
             </div>
+            
             <div class="Altura">
                 <label for="Altura">Altura (M)</label>
-                <input type="number" id="Altura" name="Altura">
+                <input type="text" id="Altura" name="Altura">
             </div>
-            <button>Calcular</button>
+            
+            <button type="submit" id="button" class="button">Calcular</button>
+            
+            <div id="container" class="container2 hide">
+                <span>Resultado: </span>
+                <span class="Resultado" id="result"></span>
+                <span class="Classificação">Classificação: </span>
+                <span class="resultado2" id="result2"></span>
+            </div>
         </form>
+
     </main>
+    <script src="principal.js"></script>
 </body>
 </html>

@@ -1,36 +1,89 @@
-main{
+main {
     border: 0.1px groove black;
     padding: 2em;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 16em;
-    margin-left: 16em ;
-}
-
-label{
-    justify-content: center;
-    align-items: center;
-}
-
-main{
+    margin-left: 16em;
     background-color: rgb(253, 239, 239);
     font-size: 2em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+h1{
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
 
-body{
+body {
     background-color: rgb(215, 239, 243);
 }
 
-.Altura{
+label {
+    display: block;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.Peso, .Altura {
+    margin-bottom: 1em;
+}
+
+.Altura {
     margin-top: 1.5em;
 }
 
-input{
+input {
     padding: 1em;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 0.8em;
 }
 
-button{
+button {
     background-color: rgb(205, 240, 205);
+    padding: 0.5em;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1em;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid #ccc;
 }
+
+#container {
+    font-size: 0.8em;
+    margin-top: 1em;
+    display: block;
+    text-align: center;
+}
+
+.Resultado, .resultado2 {
+    display: block;
+    margin-top: 0.5em;
+    font-weight: bold;
+}
+
+.hide {
+    display: none;
+}
+
+/* Cores para as classificações */
+.abaixo-peso {
+    color: blue;
+}
+
+.peso-normal {
+    color: green;
+}
+
+.sobrepeso {
+    color: orange;
+}
+
+.obesidade {
+    color: red;
+}
+
