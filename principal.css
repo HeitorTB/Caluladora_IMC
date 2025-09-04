@@ -1,15 +1,12 @@
 main {
     border: 0.1px groove black;
-    padding: 2em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 16em;
-    margin-left: 16em;
+    padding: 1em;
     background-color: rgb(253, 239, 239);
     font-size: 2em;
+    width: 300px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 h1{
     font-size: 0.8em;
     text-align: center;
@@ -19,6 +16,9 @@ h1{
 
 body {
     background-color: rgb(215, 239, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 label {
