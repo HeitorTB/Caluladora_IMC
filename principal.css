@@ -5,6 +5,7 @@ main {
     font-size: 2em;
     min-width: 300px;
     max-width: 90%;
+    height: 90%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
